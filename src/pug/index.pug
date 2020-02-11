@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+html(lang="ru-RU")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Document
+        link(rel="stylesheet", href="style.css")
+    body.n-body
+        include ./template/header
+        .n-banner   
+            .n-banner__content
+                .n-banner__text
+                    h1.h1 Новая серия весов Cubis II
+                    h2.h3 Ваши весы — ваш выбор
+        .n-menu-secondary
+            .container
+                ul.n-menu-secondary__list.flex
+                    li.n-menu-secondary__item
+                        a(href="").flex.aic.jcc  Продукция
+                    li.n-menu-secondary__item
+                        a(href="").flex.aic.jcc  Сервис
+                    li.n-menu-secondary__item
+                        a(href="").flex.aic.jcc Прайс-лист
+                    li.n-menu-secondary__item
+                        a(href="").flex.aic.jcc Мероприятия 
+        .n-welcome
+            .container
+                .n-welcome__top.x-center
+                    h2.h1 Добро пожаловать в Сартогосм
+                    h3 Метрологическое производство концерна Sartorius
+                ul.n-cats.flex
+                    li.n-cat
+                        .n-cat__wrap
+                            h3.n-cat__title Лаборатория
+                            ul
+                                li
+                                    a(href="") Компараторы массы
+                                li
+                                    a(href="") Лабораторные весы
+                                li
+                                    a(href="") Анализаторы влажности
+                                li
+                                    a(href="") Лабораторные дозаторы
+                                li
+                                    a(href="") Лабораторная водоподготовка
+                            a(href="").n-btn.n-btn--bordered Смотреть все
+                    li.n-cat
+                        .n-cat__wrap
+                            h3.n-cat__title Биотехнологии
+                            ul
+                                li
+                                    a(href="") Ферментеры и биореакторы
+                                li
+                                    a(href="") Промышленная фильтрация
+                                li
+                                    a(href="") Тангенциальная фильтрация
+                                li
+                                    a(href="") Одноразовые технологии
+                                li
+                                    a(href="") Мембранная хроматография
+                            a(href="").n-btn.n-btn--bordered Смотреть все
+                    li.n-cat
+                        .n-cat__wrap
+                            h3.n-cat__title Сделано в России
+                            ul
+                                li
+                                    a(href="") Лабораторные весы серии СЕ
+                                li
+                                    a(href="") Аналитические весы серии СЕ
+                                li
+                                    a(href="") Гири и наборы гирь
+                                li
+                                    a(href="") Комплект поверки гирь и весов
+                                li
+                                    a(href="") Сервисная служба
+                            a(href="").n-btn.n-btn--bordered Смотреть все
+                .n-products
+                    h2 Новинки продукции
+                    .n-products__slider-nav.flex.jcsb.aic
+                        button.i-arrow.js-slider-products-prev
+                        button.i-arrow.i-arrow--reverse.js-slider-products-next
+                    .n-products__slider.swiper-container.js-slider-products
+                        ul.n-products__slider-wrapper.swiper-wrapper
+                            li.n-products__slider-item.swiper-slide
+                                .n-products__slider-content.flex.jcsb
+                                    .n-products__slider-img
+                                        img(src="img/product.png", alt="")
+                                    .n-products__slider-text
+                                        h2 Sartorius представляет Cubis® II
+                                        p Модульные лабораторные весы для достижения максимальной операционной эффективности и непревзойдённой гибкости
+                                        a(href="").n-btn.n-btn--bordered Подробнее
+                            li.n-products__slider-item.swiper-slide
+                                .n-products__slider-content.flex.jcsb
+                                    .n-products__slider-img
+                                        img(src="img/product1.png", alt="")
+                                    .n-products__slider-text
+                                        h2 Система ambr® 250 modular
+                                        p Высокопроизводительная автоматизированная биореакторная система для разработки технологических процессов
+                                        a(href="").n-btn.n-btn--bordered Подробнее
+        a(href="").n-follow
+            .container
+                .n-follow__wrap.t-center
+                    .h1 Следите за новостями компании
+                    i.i-arrow-right
+        .n-catalog
+            .container
+                h2 Каталог
+                ul.n-catalog__list
+                    li.n-catalog__item.flex
+                        .n-catalog__img.n-catalog__item-col
+                            img(src="img/c1.png", alt="")
+                        .n-catalog__content.n-catalog__item-col
+                            h2.h2 Дозирующие устройства
+                            p Механические и электронные дозаторы, наконечники и диспенсеры Sartorius для любых задач дозирования жидкостей
+                            a(href="" data-popup-type="catalog").n-btn.n-btn--bordered.js-open-popup Запросить каталог
+                    li.n-catalog__item.n-catalog__item--reverse.flex
+                        .n-catalog__img.n-catalog__item-col
+                            img(src="img/c2.png", alt="")
+                        .n-catalog__content.n-catalog__item-col
+                            h2.h2 Биопроцессы
+                            p Ваш путеводитель по решениям для получения биопрепаратов – от исследований до производства
+                            a(href="" data-popup-type="catalog").n-btn.n-btn--bordered.js-open-popup Запросить каталог
+        .n-numbers
+            .container
+                ul.n-numbers__list.flex
+                    li.n-numbers__item
+                        .n-numbers__title Сотрудники
+                        .n-numbers__num 6,900
+                    li.n-numbers__item
+                        .n-numbers__title Площадки
+                        .n-numbers__num 32
+                    li.n-numbers__item
+                        .n-numbers__title Доход от продаж (млрд)
+                        .n-numbers__num 1,3
+        footer.n-footer
+            .container
+                ul.n-footer__list.flex
+                    li.n-footer__item
+                        .n-footer__title Основная информация
+                        ul
+                            li 
+                                a(href="") Лаборатория
+                            li 
+                                a(href="") Биотехнологии
+                            li 
+                                a(href="") Промышленность
+                            li 
+                                a(href="") Сделано в России
+                    li.n-footer__item
+                        .n-footer__title Компания
+                        ul
+                            li 
+                                a(href="") О компании
+                            li 
+                                a(href="") Каталог продукции
+                            li 
+                                a(href="") Прайс-лист
+                            li 
+                                a(href="") Учебный центр
+                            li 
+                                a(href="") Калибровка и проверка
+                            li 
+                                a(href="") Новости
+                    li.n-footer__item
+                        .n-footer__title Контакты
+                        ul
+                            li 
+                                a(href="") Отправить запрос
+                            li 
+                                a(href="") Обратный звонок
+                            li 
+                                a(href="tel:+7 (812) 380-25-69") +7 (812) 380-25-69
+                            li 
+                                a(href="") Сервисная служба
+                            li 
+                                a(href="") Контакты
+                p.n-footer__copy © 2020 Sartogosm
+        include ./blocks/popups
+        include blocks/scripts

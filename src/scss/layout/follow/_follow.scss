@@ -1,0 +1,21 @@
+.n-follow {
+    display: block;
+    background: #FFED00;
+    padding: 40px 0;
+    &:hover {
+        background: #000000;
+        .h1{
+            color: white;
+        }
+    }
+    &__wrap {
+        position: relative;
+        i {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            margin-top: 5px;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.n-cats {
+    margin: 48px 0;
+}
+.n-cat {
+    width: 33.33%;
+    padding: 0 12px;
+    &__wrap {
+        background: #F5F5F5;    
+        padding: 24px;   
+    }
+    &__title {
+        margin-bottom: 16px;
+    }
+    ul {
+        margin-bottom: 70px;
+        li {
+            margin: 0 -8px 8px;
+            a {
+                font-size: 18px;
+                line-height: 26px;
+                color: #000000;       
+                padding: 4px 8px;
+                &:hover {
+                    background: #FFED00;     
+                }
+            }
+        }
+    }
+}

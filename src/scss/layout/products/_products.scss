@@ -1,0 +1,32 @@
+.n-products {
+    position: relative;
+    h2 {
+        margin-bottom: 24px;
+    }
+    &__slider {
+        &-content {
+            background: #FFED00;
+            padding: 40px 88px;    
+        }
+        &-text {
+            max-width: 504px;
+            margin-left: auto;
+            h2 {
+                margin: 0;
+            }
+            p {
+                font-size: 18px;
+                line-height: 26px;
+                margin: 8px 0 24px;        
+            }
+        }
+        &-nav {
+            position: absolute;
+            width: calc(100% + 144px);
+            top: calc(50% + 32px);
+            left: 50%;
+            z-index: 2;
+            transform: translate(-50%, -50%);
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.n-banner {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 472px;
+    background: url("img/banner.png") no-repeat right;
+    position: relative;
+    &__content {
+        height: 100%;
+        width: 45%;
+        background: #FFFFFF;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    &__text {
+        max-width: 400px;
+        padding-right: 88px;
+        .h1 {
+            margin-bottom: 16px;
+        }
+    }
+}

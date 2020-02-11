@@ -1,0 +1,36 @@
+.n-footer {
+    background: #000000;
+    padding: 32px 0;
+    &__item {
+        width: 33.33%;
+        ul {
+            li {
+                margin: 0 -8px;
+                a {
+                    font-size: 14px;
+                    line-height: 18px;
+                    color: #FFFFFF;    
+                    padding: 8px;
+                    display: inline-block; 
+                    &:hover {
+                        background: #FFED00;  
+                        color: #000000;    
+                    }
+                }
+            }
+        }
+    }
+    &__title {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        color: #FFFFFF;     
+        margin-bottom: 24px;
+    }
+    &__copy {
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;    
+        margin-top: 16px;    
+    }
+}

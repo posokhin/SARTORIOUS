@@ -1,0 +1,20 @@
+.n-numbers {
+    padding: 48px 0;
+    &__item {
+        width: 33.33%;
+    }
+    &__title {
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;   
+        margin-bottom: 8px;    
+    }
+    &__num {
+        font-weight: 300;
+        font-size: 52px;
+        line-height: 60px;
+        text-align: center;
+        color: #000000;      
+    }
+}

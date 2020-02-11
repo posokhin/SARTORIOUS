@@ -1,0 +1,33 @@
+.n-catalog {
+    padding: 48px 0;
+    background: #F5F5F5;
+    &__list {
+        margin-top: 24px;
+    }
+    &__item {
+        background: #FFFFFF;
+        margin-bottom: 24px;
+        &--reverse {
+            flex-direction: row-reverse;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &-col {
+            width: 50%;
+        }
+    }
+    &__img {
+        display: flex;
+        align-items: center;
+    }
+    &__content {
+        padding: 40px;
+        p {
+            font-size: 18px;
+            line-height: 26px;
+            color: #000000;     
+            margin: 8px 0 24px;   
+        }
+    }
+}

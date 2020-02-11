@@ -1,0 +1,72 @@
+.n-popup.n-popup--request    
+    .n-popup__content
+        button.i-close.js-close-popup.close
+        .h3.n-popup__title Напишите нам:
+        form(action="").n-form
+            .n-form__item.error
+                .n-form__placeholder Компания
+                input(type="text")
+                .err Некорректно заполненное поле
+            .n-form__item.error
+                .n-form__placeholder Город
+                input(type="text")
+                .err Корректно заполненное поле
+            .n-form__item.error
+                .n-form__placeholder Фамилия и имя
+                input(type="text")
+                .err Краткое описание
+            .n-form__item
+                .n-form__placeholder Телефон
+                input(type="text" data-phone)
+            .n-form__item
+                .n-form__placeholder Коментарий
+                textarea 
+            .n-form__item.n-form__item--file
+                .n-file.flex.aic
+                    i.i-file
+                    span Прикрепить файл
+                    input(type="file", name="")
+            .n-form__item.n-form__item--checkbox
+                label(for="ch1") 
+                    input(type="checkbox" id="ch1" data-phone)
+                    .n-ckeckbox
+                        i.i-check
+                    span Необходима консультация специалиста
+            .n-form__info
+                p Отправляя сообщение через форму связи, я соглашаюсь на 
+                    a(href="") обработку персональных данных.
+            button.n-btn.n-btn--yellow Отправить запрос
+.n-popup.n-popup--catalog
+    .n-popup__content
+        button.i-close.js-close-popup.close
+        .h3.n-popup__title Запросить каталог
+        form(action="").n-form
+            .n-form__item
+                .n-form__placeholder Фамилия и имя
+                input(type="text")
+            .n-form__item
+                .n-form__placeholder Ваш email
+                input(type="text")
+            .n-form__item
+                .n-form__placeholder Телефон
+                input(type="text" data-phone)
+            .n-form__item.n-form__item--checkbox
+                label(for="ch2") 
+                    input(type="checkbox" id="ch2" data-phone)
+                    .n-ckeckbox
+                        i.i-check
+                    span Необходима консультация специалиста
+            .n-form__info
+                p Отправляя сообщение через форму связи, я соглашаюсь на 
+                    a(href="") обработку персональных данных.
+            button.n-btn.n-btn--yellow.js-form-success Отправить запрос
+    .n-popup__content.n-popup__content--success
+        button.i-close.js-close-popup.close
+        .h3.n-popup__title Запросить каталог
+        .n-pdf
+            .n-pdf__icon
+                i.i-pdf
+            .n-pdf__info
+                a(href="") Каталог лаборатории
+                span pdf, 1.2 mb
+        a(href="").n-btn.n-btn--bordered Вернуться на главную
